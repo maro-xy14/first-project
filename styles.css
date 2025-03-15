@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+ul li:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+ul li:last-child {
+    border-bottom: none;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+.remove-task {
+    background: none;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 16px;
+}
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.add-task input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.add-task button {
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+table {
+    display: none;
+}
